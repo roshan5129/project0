@@ -1,0 +1,106 @@
+.navbar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.item-navbar {
+  margin: 10px;
+}
+a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.center-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  display: flex;
+  z-index: 3;
+  position: relative;
+  min-height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  max-width: 584px;
+  margin-top: 15px;
+}
+.btn-google {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.app-bar {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+  font-weight: bold;
+}
+.line {
+  border-bottom: 1px solid #ebebeb;
+}
+.advanced-1 {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.advanced {
+  margin: 50px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.left {
+  width: 200px;
+}
+.right {
+  flex: 2;
+}
+.form-control {
+  width: 385px;
+  padding: 8px;
+  font-size: 14px;
+}
+.p-advanced {
+  font-size: 13px;
+  vertical-align: middle;
+}
+.btn-advanced {
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  border-radius: 5px;
+  height: 35px;
+}
+.btn-search {
+  display: flex;
+  justify-content: flex-end;
+  width: 600px;
+}
+.btn-advanced:hover {
+  cursor: pointer;
+}
